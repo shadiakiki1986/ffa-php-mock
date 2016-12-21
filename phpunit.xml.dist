@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- copied from https://github.com/Seldaek/monolog/blob/master/phpunit.xml.dist -->
+<phpunit bootstrap="vendor/autoload.php" colors="true" verbose="true">
+    <testsuites>
+        <testsuite name="Tests">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/FfaPhp/</directory>
+            <directory suffix=".php">src/MfBfDriver/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
