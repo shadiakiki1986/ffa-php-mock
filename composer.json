@@ -1,0 +1,30 @@
+{
+    "name": "shadiakiki1986/ffa-php-mock",
+    "description": "Mock objects of ffa-php-core for development and testing",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "jakub-onderka/php-parallel-lint": "^0.9"
+    },
+    "require": {
+      "monolog/monolog": "^1.21"
+    },
+    "autoload": {
+      "psr-4" : {
+        "FfaPhp\\" : "src/FfaPhp",
+        "MfBfDriver\\" : "src/MfBfDriver"
+      }
+    },
+    "autoload-dev": {
+      "psr-4" : {
+        "FfaPhp\\" : "tests/FfaPhp",
+        "MfBfDriver\\" : "tests/MfBfDriver"
+      }
+    },
+    "scripts": {
+        "test": [
+            "parallel-lint . --exclude vendor",
+            "phpunit --stderr --verbose"
+        ]
+    }
+}
