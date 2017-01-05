@@ -10,7 +10,7 @@
       "monolog/monolog": "^1.21"
     },
     "provide": {
-      "shadiakiki1986/ffa-php-implementation": "^0"
+      "shadiakiki1986/ffa-php-implementation": "0"
     },
     "autoload": {
       "psr-4" : {
