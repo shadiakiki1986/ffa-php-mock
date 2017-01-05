@@ -9,6 +9,9 @@
     "require": {
       "monolog/monolog": "^1.21"
     },
+    "provide": {
+      "shadiakiki1986/ffa-php-implementation"
+    },
     "autoload": {
       "psr-4" : {
         "FfaPhp\\" : "src/FfaPhp",
