@@ -24,6 +24,9 @@
         "MfBfDriver\\" : "tests/MfBfDriver"
       }
     },
+    "bin": [
+      "bin/treasury-debitInterest.php"
+    ],
     "scripts": {
         "test": [
             "parallel-lint . --exclude vendor",
