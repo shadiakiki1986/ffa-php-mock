@@ -18,8 +18,8 @@ class Emailer {
       ." with subject: ".PHP_EOL
       .$this->report->subject().PHP_EOL
       ." and body: ".PHP_EOL
-      .str_splice($this->report->toHtml(),0,20)."...".PHP_EOL
-      .str_splice($this->report->published(),0,20)."...".PHP_EOL
+      .substr($this->report->toHtml(),0,20)."...".PHP_EOL
+      .substr($this->report->published(),0,20)."...".PHP_EOL
     );
   }
 
