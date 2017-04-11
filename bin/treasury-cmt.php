@@ -40,6 +40,6 @@ switch($_GET['format']) {
 }
 
 if($_GET['notifyTracker']) {
-	\FfaPhp\MfBfExtended\Utils::contactTracker("cmtReport.php");
+	contactTracker("cmtReport.php");
 }
 
