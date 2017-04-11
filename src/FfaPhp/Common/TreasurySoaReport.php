@@ -9,7 +9,7 @@ class TreasurySoaReport extends Report {
   }
 
   public function toConsole() {
-    echo("Treasury SOA".PHP_EOL);
+    return("Treasury SOA".PHP_EOL);
   }
 
   public function attachment() {
