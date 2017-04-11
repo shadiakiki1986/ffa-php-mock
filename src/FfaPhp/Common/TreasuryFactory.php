@@ -13,6 +13,6 @@ class TreasuryFactory {
   }
 
   public function cmt(\DateTime $d1,\DateTime $d2,string $format) {
-    return new TreasuryCmtReport();
+    return new TreasuryCmtReport([], $d1, $d2, "base");
   }
 }
