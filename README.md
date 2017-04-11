@@ -1,4 +1,4 @@
-# ffa-php-mock
+# ffa-php-mock [![Build Status](https://travis-ci.org/shadiakiki1986/ffa-php-mock.svg?branch=master)](https://travis-ci.org/shadiakiki1986/ffa-php-mock)
 Open-source package that behaves similarly to the closed-source `ffa-php-core`.
 This package is used as a mock drop-in replacement for the development of
 [ffa-php-cli](https://github.com/shadiakiki1986/ffa-php-cli)
